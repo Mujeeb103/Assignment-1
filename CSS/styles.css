@@ -1,0 +1,122 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Major Mono Display', monospace;
+    }
+    .container { 
+     display: grid;
+     grid-template-rows: 5rem 1fr 5rem;
+     grid-template-columns: 250px 1fr;
+     grid-template-areas: 
+     's h h'
+     's m m'
+     's f f';
+     gap: 5px;
+     width: 100vw;
+     height: 100vh;
+    
+    }
+    
+
+
+    a :hover{
+        text-decoration: line-through 3px;
+    }
+    .header {
+    grid-area: h;
+    background-color: #f2e9de;
+    color:#3e8fb0 ;
+    
+    
+    
+    }
+    .side {
+    grid-area: s;
+    background-color:#f2e9de;
+    color: #3e8fb0;
+    
+    
+    }
+    .main {
+    grid-area: m;
+    background-color: #f2e9de;
+    color: #3e8fb0;
+    }
+    footer {
+    grid-area: f;
+    background-color: #f2e9de;
+    
+
+    
+    
+    }
+
+    li {
+        font-size: 1rem;
+        color: #3e8fb0;
+        list-style-type: none;
+        margin-right: 2rem;
+        
+    }
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        
+        
+    
+    }
+        
+    .classes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .note {
+        
+        color: #3e8fb0;
+        position:relative ;
+       font-size: 20px;
+
+    }
+    .sidebar {
+        color: #3e8fb0;
+        font-size: 25px;
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+
+    
+
+    .message {
+        position: relative;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .creator {
+        color:#3e8fb0 ;
+        position: relative;
+        top: 55px;
+        text-align: center;
+        
+    }
+
+    
+    @media screen and (min-width:1280px) {
+        body {
+            color: #3e8fb0;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width:480px) {
+        body {
+            font-size: 8px; 
+            text-align: left; 
+           
+        }   
+    }

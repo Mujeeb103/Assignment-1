@@ -2,14 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <button name="favorite">
-        <svg aria-hidden="true" viewBox="0 0 10 10"><path d="M7 9L5 8 3 9V6L1 4h3l1-3 1 3h3L7 6z"/></svg>
-        Add to favorites
-      </button>
+    <div class="container">
+        <nav class="header">
+           <ul class="top">
+            <li>about</li>
+            <li>docs</li>
+           </ul> 
+        </nav>
+        <nav class="side">
+            <ol class="classes">
+                <li style="padding-left:1em"></li>
+                <li>my notes</li>
+                <li >note 1</li>
+                <li>note 2</li>
+               </ol>
+          <button class="sidebar-closing"
+          type="menu">
+          <<
+        </button>
+        </nav> 
+         <div class="main">
+        
+          <button class="add"
+            type="button">
+            +
+          </button>
+          <textarea class="textbox"
+          rows=10 cols="30">
+        your note here
+          </textarea>
+          <button class="save"
+            type="button">
+            save
+          </button>
+          <button class="delete"
+          type="button">
+          delete
+          </button>
+         </div>
+          <footer>
+           <p class="creator">created by mujeeb</p>
+          </footer>
+      </div>
 </body>
-</html>

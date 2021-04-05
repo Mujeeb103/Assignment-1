@@ -7,8 +7,8 @@
 
     .container { 
      display: grid;
-     grid-template-rows: 5rem 1fr 5rem;
-     grid-template-columns: minimax(0px,auto) 1fr;
+     grid-template-rows: 2.5rem 1.5fr 0rem;
+     grid-template-columns: minmax(0px,auto) 1fr;
      grid-template-areas: 
      's h'
      's m'
@@ -43,8 +43,8 @@
     }
     .main {
     grid-area: m;
-    background-color: #f2e9de;
-    color: #3e8fb0;
+    background-color: #faf4ed
+   
     }
     footer {
     grid-area: f;
@@ -74,25 +74,20 @@
     }
     .textinput {
         height: 150px;
-        background-color:#f2e9de;
-    }
-
-    .note {
-        
-        color: #3e8fb0;
-        position:relative ;
+        background-color:#9ccfd8;
         border-radius: 5px;
         caret-color: #eb6f92;
-       font-size: 2rem;
-
+        font-size: 2rem;
     }
+
+   
 
     button {
         background-color: #2a273f;
         color: #e0def4;
         border: none;
         border-radius: 5px;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 2px;
         margin-top: 5px;
         margin-left: 10px;
@@ -116,7 +111,7 @@
         
     .container { 
         display: grid;
-        grid-template-rows: 5rem 1fr 5rem;
+        grid-template-rows:2.5rem 1.5fr 0rem ;
         grid-template-areas: 
         'h h'
         's s'
@@ -139,6 +134,6 @@
     .note-buttons {
         justify-content: center;
     }
-    }
+}
     
    

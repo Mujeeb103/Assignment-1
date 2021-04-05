@@ -49,29 +49,28 @@
     footer {
     grid-area: f;
     background-color: #f2e9de;
+    display: flex;
+    justify-content: center;
     }
 
     li {
-        font-size: 1rem;
+        font-size: 2rem;
         color: #3e8fb0;
         list-style-type: none;
-        margin-right: 2rem;
+        margin-right: 3rem;
         
     }
 
     .top {
         display: flex;
         flex-direction: row;
-        
-        
+        justify-content: end;
     
     }
         
-    .notelist {
-       color: #3e8fb0;
-       text-align: center;
-       margin: 60px;
-       line-height: 30px;
+    .note-area {
+        margin: 10px;
+      max-width: 500px;
     }
     
 

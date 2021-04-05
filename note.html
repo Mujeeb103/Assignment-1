@@ -6,38 +6,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
-    <title>Document</title>
+    <title>note-ly</title>
 </head>
 <body>
     <div class="container">
+      <header>
         <nav class="header">
            <ul class="top">
             <li>about</li>
             <li>docs</li>
            </ul> 
         </nav>
+      </header>
         <nav class="side">
-            <ol class="classes">
-                <li style="padding-left:1em"></li>
-                <li>my notes</li>
-                <li >note 1</li>
-                <li>note 2</li>
-               </ol>
+          <h1>My Notes</h1>
+                <li>note 1</li>
+                <li >note 2</li>
+                <li>note 3</li>
+               </ul>
+              </nav> 
           <button class="sidebar-closing"
           type="menu">
           <<
         </button>
         </nav> 
          <div class="main">
-        
+           <div class="note-area">
+             <div class="textinput" contenteditable="true"></div>
+
           <button class="add"
             type="button">
             +
           </button>
-          <textarea class="textbox"
-          rows=10 cols="30">
-        your note here
-          </textarea>
           <button class="save"
             type="button">
             save
@@ -47,6 +47,8 @@
           delete
           </button>
          </div>
+         </div>
+         
           <footer>
            <p class="creator">created by mujeeb</p>
           </footer>
